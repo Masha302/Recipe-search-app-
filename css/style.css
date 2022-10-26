@@ -1,0 +1,103 @@
+body{
+   background-color: antiquewhite;
+}
+.heading{
+   display: flex;
+   justify-content: center;
+}
+.input{
+   display: flex;
+}
+#search{
+   flex: 1;
+   font-family: 'Dancing Script', cursive;
+   font-size: 25px;
+   padding: 10px;
+}
+h1{
+   font-family: 'Dancing Script', cursive;
+   font-size: 40px;
+}
+.one{
+   background-image: url('foto-1.jpg');
+}
+.two{
+   background-image: url('foto-2.jpg');
+}
+.three{
+   background-image: url('foto-3.jpg');
+}
+.foure{
+   background-image: url('foto-4.jpg');
+}
+.five{
+   background-image: url('foto-5.jpg');
+}
+.container{
+   display: flex;
+}
+.item{
+   margin:10px;
+   height: 50vh;
+   background-size: cover;
+   background-position: center;
+   font-family: 'Dancing Script', cursive;
+   flex: 1;
+   position: relative;
+}
+h4{
+   position: absolute;
+   top: 15px;
+   left: 40px;
+   background-color: #fff;
+   color: black;
+   font-size: 25px;
+   opacity: 0;
+}
+.par{
+   position: absolute;
+   bottom: 40px;
+   left: 40px;
+   background-color: #fff;
+   color: black;
+   opacity: 0;
+}
+.selected{
+   flex: 4;
+}
+.selected h4{
+   font-size: 40px;
+   transition: all 1s ease-in;
+   opacity: 1;
+}
+.selected .par{
+   font-size: 20px;
+   transition: all 1s ease-in;
+   opacity: 1;
+}
+
+a{
+   color: #000;
+   text-decoration: none;
+   font-size: 30px;
+   font-family: 'Dancing Script', cursive;
+}
+.block{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.picture{
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   
+   border-radius: 25px;
+   
+}
+img{
+   border-radius: 25px;
+   box-shadow: 0 0 30px 2px rgb(136, 132, 129);
+}
